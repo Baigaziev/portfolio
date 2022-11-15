@@ -37,7 +37,7 @@ img {
   letter-spacing: 20px;
   background:  #2f4f4f ;
   position: relative;
-  animation: text 4s ease-in-out;
+  animation: text 5s 2 ease-in-out;
 }
  .text2 {
   color: #DEB887;
@@ -58,3 +58,25 @@ img {
     
   }
  }
+ h1 {
+  color: #C0C0C0;
+  text-align: center;
+  margin-top: -180px;
+  margin-left: 150px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+ }
+ .container2 {
+  padding: 150px;
+  margin: 20px;
+  position: absolute;
+  font-size: 30px;
+}
+p {
+  color: beige;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 520px;
+  text-align: justify;
+}
+ 
