@@ -62,9 +62,15 @@ img {
   color: #C0C0C0;
   text-align: center;
   margin-top: -180px;
-  margin-left: 150px;
+  margin-left: 300px;
   letter-spacing: 20px;
   text-transform: uppercase;
+  transform: 500ms;
+  transition: all 500ms ease-in;
+
+ }
+ h1:hover {
+  color: black;
  }
  .container2 {
   padding: 150px;
@@ -78,5 +84,19 @@ p {
   margin-top: 20px;
   margin-left: 520px;
   text-align: justify;
+  text-indent: 30px;
+  text-shadow: #808000 0.5px 4px 6px;
+font-family: 'Times New Roman', Times, serif;
 }
+ .container3 {
+  margin-top: 300px;
+  margin-left: 50%;
+ }
+
+ .container3 h2 {
+  text-transform: uppercase;
+  text-shadow: #a39086 1px 2px 5px;
+  letter-spacing: 10px;
+  font-size: 30px;
+ }
  
