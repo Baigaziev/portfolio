@@ -9,7 +9,7 @@
   border-bottom: 15px solid black;
   top: -199px;
   position: absolute;
-  transition: top 1s ease-in-out;
+  transition: top 2s ease-in-out;
 }
 .solid p {
   text-align: center;
@@ -69,7 +69,7 @@ img {
  @keyframes text {
   0%{
     color: white;
-    margin-bottom: -60px ;
+    margin-bottom: -40px ;
   }
   30% {
     letter-spacing: 30px;
@@ -81,6 +81,7 @@ img {
   }
  }
  h1 {
+
   color: #C0C0C0;
   text-align: center;
   margin-top: -140px;
@@ -89,6 +90,7 @@ img {
   text-transform: uppercase;
   transform: 500ms;
   transition: all 500ms ease-in;
+  
 
  }
  h1:hover {
@@ -113,6 +115,7 @@ font-family: 'Times New Roman', Times, serif;
  .container3 {
   margin-top: 200px;
   margin-left: 45%;
+  
  }
 
  .container3 h2 {
@@ -121,6 +124,10 @@ font-family: 'Times New Roman', Times, serif;
   letter-spacing: 10px;
   font-size: 30px;
  }
+ .container3 h2:hover {
+  color: #FAEBD7;
+ }
+
  
  .box {
   margin-top: -120px;
@@ -140,4 +147,36 @@ font-family: 'Times New Roman', Times, serif;
   margin-bottom: 10;
   padding-top: 10px;
   
+}
+h2 {
+  margin-bottom: 15px;
+  margin-left: -40px;
+  letter-spacing: 10px;
+  background:  #2f4f4f ;
+  position: relative;
+  animation: text 5s 2 ease-in-out;
+}
+@media (max-width: 768px) {
+  /* Добавьте стили для мобильных устройств */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .container2 {
+    height: 50px;
+  }
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .box div {
+    width: 100%;
+  }
 }
